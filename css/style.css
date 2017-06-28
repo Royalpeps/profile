@@ -1,8 +1,213 @@
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Work Sans', sans-serif; */
 
+h1{
+  font-family: 'Work Sans', sans-serif;
+}
 
-h1 {
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+#thomas {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2D3142;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.titre {
+  color: #EF8354;
+}
+
+.button {
+    background-color: #EF8354;
+    border: none;
+    color: #EF8354;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 6%;
+}
+
+.button1 {
+    background-color: #EF8354;
+    color: #2D3142;
+}
+
+.button1:hover {
+    background-color: #ADE7BB;
+    color: #2D3142;
+}
+
+.presentation {
+  background-color: #2D3142;
+  color: #FFFFFF;
+  text-align: center;
+  width: 800px;
+  border: 5px;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 2%;
+  box-shadow: 7px 7px #4F5D75;
+}
+
+.social {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.social li {
+  display: inline-block;
+  padding: 80px;
+  font-size: 50px;
+}
+
+.fa {
+  color: #ADE7BB;
+}
+
+.artistes {
+  background-color: #2D3142;
+  color: #FFFFFF;
+  text-align: center;
+  width: 800px;
+  border: 5px;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 2%;
+  box-shadow: 7px 7px #4F5D75;
+}
+
+.madeon {
+  padding: 50px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.petit-biscuit {
+  padding: 50px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.armin {
+  padding: 50px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.youtube {
+  color: #ADE7BB;
+}
+
+.wagon {
+  color: #ADE7BB;
+}
+
+.propos {
+  background-color: #2D3142;
+  color: #FFFFFF;
+  text-align: center;
+  width: 800px;
+  border: 5px;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 2%;
+  box-shadow: 7px 7px #4F5D75;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1 {
   font-family: 'Work Sans', sans-serif;
   text-align-last: center;
   color: #ECF0F1;
@@ -21,8 +226,12 @@ h3 {
 }
 
 p {
-  text-align-last: center;
+  text-align: center;
   color: #ECF0F1;
+}
+
+.favoris a {
+  color: #FCC29A;
 }
 
 
@@ -37,8 +246,8 @@ div {
   background-color: #33425B;
   width: 800px;
   border: 5px;
-  padding: 50px;
-  margin: 25px auto;
+  padding: 20px;
+  margin: 15px auto;
   border-radius: 2%;
   box-shadow: 5px 5px #3498DB;
 }
@@ -48,19 +257,12 @@ body {
   margin: 50px auto;
 }
 
-.text-align {
-  text-align: center;
-}
-
 .social{
   list-style: none;
   text-align: center;
   padding-left: 0px;
 }
 
-.link {
-  margin: 20px auto;
-}
 .social li {
   display: inline-block;
   padding: 70px;
@@ -69,18 +271,6 @@ body {
 
 .social a {
   color: #FCC29A;
-}
-
-.presentation {
-  text-align: center;
-}
-
-.intro {
-  text-align: justify;
-}
-
-.lien {
-  color: #ECF0F1;
 }
 
 .madeon {
@@ -96,49 +286,4 @@ body {
 .armin {
   padding: 50px;
   border-radius: 50%;
-}
-
-.footer {
-  text-align-last: center;
-}
-
-
-.button {
-  display: inline-block;
-  border-radius: 5px;
-  background-color: #FCC29A;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 25px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px 10px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -10px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 30px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+}*/
